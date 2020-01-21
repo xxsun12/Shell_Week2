@@ -85,7 +85,51 @@ Practice Exercise
 		- will accept absolute or relative paths
 	- `chmod` - change permissions - specify who (ugo), how (+ or -), and what (rwx)
 	- `man <command>` - gives us the manual page and options for any Unix command (q will get out of manual page)
+- [Notes about command-line navigation](https://github.com/IntroToCompBioLSU-Spr20/Shell_Week2/blob/master/CommandLine_Navigating.md)
 
+- Commands related to files and folders
+	- `cp` - copies a file
+		- `cp originalFile.txt newFile.txt`
+	- `mv` - moves __or__ renames a file
+		- To change location, use paths: `mv myFile.txt ./folder/myFile.txt`
+		- To change name, just use different names: `mv myFile.txt newName.txt`
+	- `cat filename.txt` - view file contents - can be called on multiple files and will conCATenate their contents
+	- 'cat file1.txt file2.txt file3.txt' will show all files in command line
+	- 'cat *.txt' shows all text in files with the file ending .txt
+	- 'ls *.txt' show all files that end in .txt
+	- 'ls ../*.txt' go up one directory then tell me the txt files there (still within the same directory)
+	- can add file/filename.txt in nano
+	- `head -n #` - view the first # of lines of a file
+	- `tail -n #` - view the last # of lines of a file
+	- `less` - view the contents of a file a little at a time nice way to scroll through
+	- `touch filename.txt` - quickly create a new file
+	- `nano filename.txt` - this is actually an entire text editing program (type text like normal)
+	- 'write out is save' and ^=control (^O) exit (^X) 
+	- `wc` - print out the length of a file in lines, words, and characters
+	- `>>` - appends to file
+		- echo "some text here" >> myTextFile.txt
+	- `>` - writes to (or over!) file
+		- echo "more text here" > myTextFile.txt
+	- WARNING - BIG WARNING - PAY ATTENTION - `rm` _permanently_ removes a file
+		- No going back - always use this VERY carefully
+		- I know people who've accidentally erased their entire computers using this command
+			- `rm -r` recursively removes a directory and everything inside it - even more dangerous than just `rm`!
+		- This is the reason permissions are so important. If someone doesn't have write permissions on a file or folder, they shouldn't be able to delete it.
+	- `mkdir MyDirectory` - create a new (empty) directory (folder)
+	- `rmdir MyDirectory` - remove an empty directory !!WARNING!!
+	- wildcards - * is especially useful - matches anything
+	- `grep` - find only lines matching some particular string
+	- 'cp filename.txt filename2.txt' will copy contents
+	- 'mv filename filename' will change name of file
+	- 'mv filename ./Biology/' will move file name into folder that is in current working directory or without './' will work too
+
+	- [ ] Commands related to the Unix environment
+		- Can create a variable and assign value using `=`
+			- myVariable=2
+		- Can print value of variable using `echo` and starting name with `$`
+			- echo $myVariable
+		- `|` - the Unix pipe can be used to send the output of one command into the input of another
+			- `history | tail -n 20 >> endOfHistory.txt`
 
 
 ```
