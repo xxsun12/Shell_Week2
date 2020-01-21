@@ -29,6 +29,15 @@ This is the general workflow for collaborative coding using GitHub.
 
 - Compare your answers to the practice exercise about paths with someone next to you. If your answers were different, discuss why.
 
+## Practical Computing tips
+
+- [Practical Computing Tips](https://github.com/IntroToCompBioLSU-Spr20/Intro_Week1/blob/master/ComputingTips.md)
+
+## Your remote Linux computer
+
+- LSU VPN
+- [ondemand.mike.hpc.lsu.edu](ondemand.mike.hpc.lsu.edu)
+
 ```
 Assignment 2
 
