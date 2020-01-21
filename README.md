@@ -60,33 +60,34 @@ Practice Exercise
 ## Introduction to the Command Line
 
 ### Terminal
-	- Built in to Linux (and Mac OS X)
-	- By default,__usually__ uses the bash shell (interpreter)
-	- The command prompt
-	- Tab completion
-	- double tap tab will list all files with that beginning
-	- Scrolling through history
+
+ - Built in to Linux (and Mac OS X)
+ - By default,__usually__ uses the bash shell (interpreter)
+ - The command prompt
+ - Tab completion
+ 	- Double tapping tab will list all files with that beginning
+ - Scrolling through history
 	
-### - Commands related to navigating the filesystem
-	- 'touch filename.txt' will create file  
-	- `pwd` - print working directory - or - "where am I?"
-	- `ls` - list directory contents
-		- 'ls -l' - long list
-			- Everything has three types of permissions
-				- Read
-				- Write
-				- Execute
-			- And three groups whose permissions can be controlled
-				- Owner
-				- Group
-				- Others
-			- [Wikipedia on Unix Permissions](https://en.wikipedia.org/wiki/File_system_permissions#Notation_of_traditional_Unix_permissions)
-		- la - list with hidden files
-	- `cd` - change directory
-		- will accept absolute or relative paths
-	- `chmod` - change permissions - specify who (ugo), how (+ or -), and what (rwx)
-	- `man <command>` - gives us the manual page and options for any Unix command (q will get out of manual page)
-	- [Notes about command-line navigation](https://github.com/IntroToCompBioLSU-Spr20/Shell_Week2/blob/master/CommandLine_Navigating.md)
+### Commands related to navigating the filesystem
+ - 'touch filename.txt' will create file  
+ - `pwd` - print working directory - or - "where am I?"
+ - `ls` - list directory contents
+  - 'ls -l' - long list
+  - Everything has three types of permissions
+   - Read
+   - Write
+   - Execute
+  - And three groups whose permissions can be controlled
+   - Owner
+   - Group
+   - Others
+  - [Wikipedia on Unix Permissions](https://en.wikipedia.org/wiki/File_system_permissions#Notation_of_traditional_Unix_permissions)
+ - la - list with hidden files
+ - `cd` - change directory
+  - will accept absolute or relative paths
+ - `chmod` - change permissions - specify who (ugo), how (+ or -), and what (rwx)
+ - `man <command>` - gives us the manual page and options for any Unix command (q will get out of manual page)
+ - [Notes about command-line navigation](https://github.com/IntroToCompBioLSU-Spr20/Shell_Week2/blob/master/CommandLine_Navigating.md)
 
 ### Commands related to files and folders
 	- `cp` - copies a file
