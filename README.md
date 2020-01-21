@@ -44,7 +44,8 @@ Practice Exercise
 (1) Log on to HPC OnDemand (any problems?)
 (2) Go to Files -> Home Directory
 (3) Look at the header bar at the top. What is the path to your home directory?
-(4) Using the "New File" and "New Dir" buttons at the top, create these directories and files in your home folder:
+(4) Using the "New File" and "New Dir" buttons at the top, create these 
+    directories and files in your home folder:
   - /home/<yourUserName>/myBiologyClasses
   - /home/<yourUserName>/myBiologyClasses/CellBiology
   - /home/<yourUserName>/myBiologyClasses/CellBiology/CellBioImportantNotes.txt
@@ -52,8 +53,8 @@ Practice Exercise
   - /home/<yourUserName>/myBiologyClasses/Ecology/EcologyImportantNotes.txt
   - /home/<yourUserName>/myBiologyClasses/Evolution
   - /home/<yourUserName>/myBiologyClasses/Evolution/EvolutionImportantNotes.txt
-  
-
+(5) For each of your `.txt` files, click the "Edit" button, add some relevant text,
+    and save your changes.
 ```
 
 ```
