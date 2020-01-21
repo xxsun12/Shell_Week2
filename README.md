@@ -59,14 +59,15 @@ Practice Exercise
 
 ## Introduction to the Command Line
 
-- Terminal
+### Terminal
 	- Built in to Linux (and Mac OS X)
 	- By default,__usually__ uses the bash shell (interpreter)
 	- The command prompt
 	- Tab completion
 	- double tap tab will list all files with that beginning
 	- Scrolling through history
-- Commands related to navigating the filesystem
+	
+### - Commands related to navigating the filesystem
 	- 'touch filename.txt' will create file  
 	- `pwd` - print working directory - or - "where am I?"
 	- `ls` - list directory contents
@@ -85,9 +86,9 @@ Practice Exercise
 		- will accept absolute or relative paths
 	- `chmod` - change permissions - specify who (ugo), how (+ or -), and what (rwx)
 	- `man <command>` - gives us the manual page and options for any Unix command (q will get out of manual page)
-- [Notes about command-line navigation](https://github.com/IntroToCompBioLSU-Spr20/Shell_Week2/blob/master/CommandLine_Navigating.md)
+	- [Notes about command-line navigation](https://github.com/IntroToCompBioLSU-Spr20/Shell_Week2/blob/master/CommandLine_Navigating.md)
 
-- Commands related to files and folders
+### Commands related to files and folders
 	- `cp` - copies a file
 		- `cp originalFile.txt newFile.txt`
 	- `mv` - moves __or__ renames a file
@@ -112,7 +113,7 @@ Practice Exercise
 		- echo "more text here" > myTextFile.txt
 	- WARNING - BIG WARNING - PAY ATTENTION - `rm` _permanently_ removes a file
 		- No going back - always use this VERY carefully
-		- I know people who've accidentally erased their entire computers using this command
+		- I know people who've accidentally erased their __entire computers__ using this command
 			- `rm -r` recursively removes a directory and everything inside it - even more dangerous than just `rm`!
 		- This is the reason permissions are so important. If someone doesn't have write permissions on a file or folder, they shouldn't be able to delete it.
 	- `mkdir MyDirectory` - create a new (empty) directory (folder)
@@ -123,13 +124,13 @@ Practice Exercise
 	- 'mv filename filename' will change name of file
 	- 'mv filename ./Biology/' will move file name into folder that is in current working directory or without './' will work too
 
-	- [ ] Commands related to the Unix environment
-		- Can create a variable and assign value using `=`
-			- myVariable=2
-		- Can print value of variable using `echo` and starting name with `$`
-			- echo $myVariable
-		- `|` - the Unix pipe can be used to send the output of one command into the input of another
-			- `history | tail -n 20 >> endOfHistory.txt`
+### Commands related to the Unix environment
+	- Can create a variable and assign value using `=`
+		- myVariable=2
+	- Can print value of variable using `echo` and starting name with `$`
+		- echo $myVariable
+	- `|` - the Unix pipe can be used to send the output of one command into the input of another
+		- `history | tail -n 20 >> endOfHistory.txt`
 
 
 ```
