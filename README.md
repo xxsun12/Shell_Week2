@@ -125,6 +125,7 @@ Practice Exercise
 - `cp filename.txt filename2.txt` will copy contents
 - `mv filename filename` will change name of file
 - `mv filename ./Biology/` will move file name into folder that is in current working directory or without `./` will work too
+- [Notes about editing files and folders from the command line](https://github.com/IntroToCompBioLSU-Spr20/Shell_Week2/blob/master/CommandLine_Editing.md)
 
 ### Commands related to the Unix environment
 
