@@ -36,7 +36,7 @@ This is the general workflow for collaborative coding using GitHub.
 ## Your remote Linux computer
 
 - LSU VPN (to work from off campus)
-- [ondemand.mike.hpc.lsu.edu](ondemand.mike.hpc.lsu.edu) 
+- [ondemand.mike.hpc.lsu.edu](https://ondemand.mike.hpc.lsu.edu) 
 
 ```
 Practice Exercise 
