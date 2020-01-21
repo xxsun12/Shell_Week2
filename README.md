@@ -35,8 +35,26 @@ This is the general workflow for collaborative coding using GitHub.
 
 ## Your remote Linux computer
 
-- LSU VPN
-- [ondemand.mike.hpc.lsu.edu](ondemand.mike.hpc.lsu.edu)
+- LSU VPN (to work from off campus)
+- [ondemand.mike.hpc.lsu.edu](ondemand.mike.hpc.lsu.edu) 
+
+```
+Practice Exercise 
+
+(1) Log on to HPC OnDemand (any problems?)
+(2) Go to Files -> Home Directory
+(3) Look at the header bar at the top. What is the path to your home directory?
+(4) Using the "New File" and "New Dir" buttons at the top, create these directories and files in your home folder:
+  - /home/<yourUserName>/myBiologyClasses
+  - /home/<yourUserName>/myBiologyClasses/CellBiology
+  - /home/<yourUserName>/myBiologyClasses/CellBiology/CellBioImportantNotes.txt
+  - /home/<yourUserName>/myBiologyClasses/Ecology
+  - /home/<yourUserName>/myBiologyClasses/Ecology/EcologyImportantNotes.txt
+  - /home/<yourUserName>/myBiologyClasses/Evolution
+  - /home/<yourUserName>/myBiologyClasses/Evolution/EvolutionImportantNotes.txt
+  
+
+```
 
 ```
 Assignment 2
