@@ -140,7 +140,7 @@ Practice Exercise
 ```
 Assignment 2
 
-(1) 
+* Will be posted after class, Tuesday, Jan. 21 *
 
 Complete by 5 PM, next Monday, January 27th.
 ```
