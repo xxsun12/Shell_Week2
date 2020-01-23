@@ -96,6 +96,14 @@ Practice Exercise
 - `man <command>` - gives us the manual page and options for any Unix command (q will get out of manual page)
 - [Notes about command-line navigation](https://github.com/IntroToCompBioLSU-Spr20/Shell_Week2/blob/master/CommandLine_Navigating.md)
 
+```
+Practice Exercise
+
+(1) Use the cd command to navigate up and down through the folders you created in the previous exercise.
+(2) After each change of directory, use pwd to check the absolute path of your location.
+(3) In folders with text files, use ls to examine the folder's contents.
+```
+
 ### Commands related to files and folders
 
 - `cp` - copies a file
@@ -113,12 +121,25 @@ Practice Exercise
 - `less` - view the contents of a file a little at a time nice way to scroll through
 - `touch filename.txt` - quickly create a new file
 - `nano filename.txt` - this is actually an entire text editing program (type text like normal)
-    - write out is save and ^=control (^O) exit (^X) 
+    - write out is save and ^=control (^O) exit (^X)
 - `wc` - print out the length of a file in lines, words, and characters
+    
+```
+Practice Exercise
+
+(1) Create a file with the touch command.
+(2) Make a copy of the file using cp.
+(3) Rename the original version of the file to something else with mv.
+(4) Use nano to add different text to each copy and save it.
+(5) View the contents of each file with cat.
+(6) Check the sizes of each file with wc.
+```
+    
+- `echo` - prints something to the screen (or elsewhere, as directed)
 - `>>` - appends to file
     - `echo "some text here" >> myTextFile.txt`
 - `>` - writes to (or over!) file
-    - echo "more text here" > myTextFile.txt
+    - `echo "more text here" > myTextFile.txt`
 - __WARNING - BIG WARNING - PAY ATTENTION__ - `rm` _permanently_ removes a file
     - No going back - always use this VERY carefully
     - I know people who've accidentally erased their __entire computers__ using this command
@@ -128,9 +149,19 @@ Practice Exercise
 - `rmdir MyDirectory` - remove an empty directory !!WARNING!!
 - wildcards - * is especially useful - matches anything
 - `grep` - find only lines matching some particular string
-- `cp filename.txt filename2.txt` will copy contents
-- `mv filename filename` will change name of file
-- `mv filename ./Biology/` will move file name into folder that is in current working directory or without `./` will work too
+
+```
+Practice Exercise
+
+(1) Create a series of new text files, with some filenams starting with one letter and some starting with another.
+(2) Use echo and output redirection (> or >>) to add content to the files.
+(3) With one command, list all the files that start with one particular letter.
+(4) Make a new directory
+(5) Move all files that start with one particular letter into the new directory.
+(6) Try to remove that directory with rmdir. Can you?
+(7) Extract all the lines from the files you created that contain one particular word of your choosing.
+```
+
 - [Notes about editing files and folders from the command line](https://github.com/IntroToCompBioLSU-Spr20/Shell_Week2/blob/master/CommandLine_Editing.md)
 
 ### Commands related to the Unix environment
@@ -138,7 +169,7 @@ Practice Exercise
 - Can create a variable and assign value using `=`
     - `myVariable=2`
 - Can print value of variable using `echo` and starting name with `$`
-    - echo $myVariable
+    - `echo $myVariable`
 - `|` - the Unix pipe can be used to send the output of one command into the input of another
     - `history | tail -n 20 >> endOfHistory.txt`
 
@@ -146,7 +177,7 @@ Practice Exercise
 ```
 Assignment 2
 
-* Will be posted after class, Tuesday, Jan. 21 *
+
 
 Complete by 5 PM, next Monday, January 27th.
 ```
