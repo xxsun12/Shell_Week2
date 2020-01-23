@@ -18,13 +18,14 @@ Practice Exercise - Copying and Editing a GitHub Repository
 (8) Scroll to the bottom and type an informative commit message
 (9) Click the "Commit new file" button
 (10) Once back on your repository page, click the "New pull request" button
-- ** Now wait here until everyone is ready, and we'll discuss **
+** Now wait here until everyone is ready, and we'll discuss **
 
 This is the general workflow for collaborative coding using GitHub.
 ```
 
-Pull request is asking the main repository to accept changes
-Make sure you're in the assignments folder when submitting assignments
+A pull request is equivalent to asking the main repository to accept changes that you've made in your fork.
+
+When using pull requests to submit assignments, make sure you're in the assignments folder.
 
 
 ## Paths to files and folders
@@ -39,8 +40,8 @@ Make sure you're in the assignments folder when submitting assignments
 
 ## Your remote Linux computer
 
-- LSU VPN (to work from off campus)
-> Go to tigerware and download Cisco to get VPN
+- LSU VPN (to work from off campus) - Available from TigerWare (Cisco VPN Client)
+
 - [ondemand.mike.hpc.lsu.edu](https://ondemand.mike.hpc.lsu.edu) 
 
 ```
