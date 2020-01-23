@@ -23,6 +23,10 @@ Practice Exercise - Copying and Editing a GitHub Repository
 This is the general workflow for collaborative coding using GitHub.
 ```
 
+Pull request is asking the main repository to accept changes
+Make sure you're in the assignments folder when submitting assignments
+
+
 ## Paths to files and folders
 
 - [Relative and absolute paths](https://github.com/IntroToCompBioLSU-Spr20/Intro_Week1/blob/master/Filesystems.md)
@@ -36,6 +40,7 @@ This is the general workflow for collaborative coding using GitHub.
 ## Your remote Linux computer
 
 - LSU VPN (to work from off campus)
+> Go to tigerware and download Cisco to get VPN
 - [ondemand.mike.hpc.lsu.edu](https://ondemand.mike.hpc.lsu.edu) 
 
 ```
